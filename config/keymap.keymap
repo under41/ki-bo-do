@@ -26,10 +26,10 @@
 
         layer_2 {
             bindings =<
-                &mkp LCLK &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none             &none &none &none &none &none &none
+				&none &none &none &none &none &none             &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none             &none &none             &none &none
             >;
         };
 
