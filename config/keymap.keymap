@@ -9,9 +9,9 @@
         layer_0 {
             bindings =<
                 &kp ESC    &kp Q    &kp W    &kp E     &kp R   &kp T                                 &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
-				&kp TAB    &kp A    &kp S    &kp D     &kp F   &kp G                                 &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
+				&kp TAB    &kp A    &lt 2 S  &kp D     &kp F   &kp G                                 &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
 				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &kp LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
-				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                             &kp MINUS &lt 2 SLASH                         &kp LS(N2) &lt 1 ENTER
+				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                             &kp MINUS &kp SLASH                         &kp LS(N2) &lt 1 ENTER
             >;
         };
 
