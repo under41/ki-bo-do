@@ -12,7 +12,7 @@
                 &kp ESC    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
 				&kp TAB    &kp A    &kp S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
 				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
-				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 2 SLASH                         &kp LS(N2) &kp ENTER
+				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &kp ENTER
             >;
         };
 
@@ -21,11 +21,11 @@
                 &kp ESC    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
 			 	&kp TAB    &kp S    &kp S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
 				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
-				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 2 SLASH                         &kp LS(N2) &kp ENTER
+				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &kp ENTER
             >;
         };
 
-        layer_2 {    //num
+        layer_2 {    //num common
             bindings =<
                 &kp N7 &kp N8 &kp N9 &kp F10 &kp F11 &kp F12                              &none       &none     &none &none &none &none
 				&kp N4 &kp N5 &kp N6 &kp F7  &kp F8  &kp F9                               &none       &none     &none &none &none &none
@@ -35,16 +35,7 @@
         };
 
 
-        layer_3{    //num
-            bindings =<
-                &kp N7 &kp N8 &kp N9 &kp F10 &kp F11 &kp F12                              &none       &none     &none &none &none &none
-				&kp N4 &kp N5 &kp N6 &kp F7  &kp F8  &kp F9                               &none       &none     &none &none &none &none
-				&kp N1 &kp N2 &kp N3 &kp F4  &kp F5  &kp F6    &none        &kp LS(EQUAL) &kp MINUS   &none     &none &none &none &none
-				&kp N0 &none  &none  &kp F1  &kp F2  &kp F3                               &kp LS(N8)  &kp SLASH             &none &none
-            >;
-        };
-
-        layer_4 {   //simbol
+        layer_3{    //simbol common
             bindings =<
                 &none &kp LS(SLASH) &none      &kp EQUAL  &none &kp LS(EQUAL)                       &kp LBKT      &kp RBKT    &none      &none &kp LS(N5) &none
 				&none &kp LS(N7)    &kp LS(N3) &kp LS(N4) &none &none                               &kp LS(N9)    &kp LS(N0)  &kp LS(N8) &none &kp LS(N6) &none
@@ -53,7 +44,7 @@
             >;
         };
 
-        layer_5 {
+        layer_4 {   //mouse mac
             bindings =<
                 &none &none &none &none     &none     &none             &none            &none               &none &none &none &none
 				&none &none &none &mkp LCLK &mkp RCLK &none             &none            &none               &none &none &none &none
@@ -61,7 +52,16 @@
 				&none &none &none &none     &none     &none             &kp C_AC_BACK            &kp C_AC_FORWARD             &none &none
             >;
         };
-        layer_6 {
+
+        layer_5 {   //mouse win
+            bindings =<
+                &none &none &none &none     &none     &none             &none            &none               &none &none &none &none
+				&none &none &none &mkp LCLK &mkp RCLK &none             &none            &none               &none &none &none &none
+				&none &none &none &mkp MCLK &none     &none &none &none &none            &none               &none &none &none &none
+				&none &none &none &none     &none     &none             &kp C_AC_BACK            &kp C_AC_FORWARD             &none &none
+            >;
+        };
+        layer_6 {   //scrol
             bindings =<
                 &none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none
