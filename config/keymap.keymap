@@ -9,19 +9,19 @@
 
         layer_0 {      //mac home
             bindings =<
-                &kp ESC    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
-				&kp TAB    &kp A    &kp S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
-				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
-				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &kp ENTER
+                &kp TAB    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
+				&kp ESC    &kp A    &lt 4 S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
+				&kp LSHIFT &kp Z    &lt 6 X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
+				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &lt 2 ENTER
             >;
         };
 
         layer_1 {     //win home
             bindings =<
-                &kp ESC    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
-			 	&kp TAB    &kp A    &kp S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
-				&kp LSHIFT &kp Z    &kp X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
-				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &kp ENTER
+                &kp TAB    &kp Q    &kp W    &kp E     &kp R   &kp T                                   &kp Y     &kp U       &kp I          &kp O    &kp P      &kp BSPC
+			 	&kp ESC    &kp A    &lt 5 S    &kp D     &kp F   &kp G                                   &kp H     &kp J       &kp K          &kp L    &kp UP     &kp DEL
+				&kp LSHIFT &kp Z    &lt 6 X    &kp C     &kp V   &kp B     &kp LS(SCLN)  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN   &kp RIGHT
+				&kp LCTRL  &kp LGUI &kp LALT &kp COMMA &kp DOT &kp SPACE                               &kp MINUS &lt 3 SLASH                         &kp LS(N2) &lt 2 ENTER
             >;
         };
 
@@ -46,19 +46,19 @@
 
         layer_4 {   //mouse mac
             bindings =<
-                &none &none &none &none     &none     &none             &none            &none               &none &none &none &none
-				&none &none &none &mkp LCLK &mkp RCLK &none             &none            &none               &none &none &none &none
-				&none &none &none &mkp MCLK &none     &none &none &none &none            &none               &none &none &none &none
-				&none &none &none &none     &none     &none             &kp C_AC_BACK            &kp C_AC_FORWARD             &none &none
+                &none &none &none &mkp MCLK &none     &none             &none &none &none &none &none &none
+				&none &none &none &mkp LCLK &mkp RCLK &none             &none &none &none &none &none &none
+				&none &none &none &none     &none     &none &none &none &none &none &none &none &none &none
+				&none &none &none &none     &none     &none             &none &none             &none &none
             >;
         };
 
         layer_5 {   //mouse win
             bindings =<
-                &none &none &none &none     &none     &none             &none            &none               &none &none &none &none
-				&none &none &none &mkp LCLK &mkp RCLK &none             &none            &none               &none &none &none &none
-				&none &none &none &mkp MCLK &none     &none &none &none &none            &none               &none &none &none &none
-				&none &none &none &none     &none     &none             &kp C_AC_BACK            &kp C_AC_FORWARD             &none &none
+                &none &none &none &mkp MCLK &none     &none             &none &none &none &none &none &none
+				&none &none &none &mkp LCLK &mkp RCLK &none             &none &none &none &none &none &none
+				&none &none &none &none     &none     &none &none &none &none &none &none &none &none &none
+				&none &none &none &none     &none     &none             &none &none             &none &none
             >;
         };
         layer_6 {   //scrol
@@ -66,7 +66,7 @@
                 &none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
-				&none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &kp C_AC_BACK            &kp C_AC_FORWARD &none &none
             >;
         };
         layer_7 {   //bluetooth
