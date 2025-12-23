@@ -60,7 +60,6 @@
              <&zip_scroll_scaler 1 6>;
     };
 };
-};
 
 &physical_layout0 {
     kscan = <&kscan0>;
