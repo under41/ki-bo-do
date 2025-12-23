@@ -56,10 +56,10 @@
 
         layer_5 {   //mouse win
             bindings =<
-                &none &none &none &mkp MCLK &none     &none             &none &none &none &none &none &none
-				&none &none &none &mkp LCLK &mkp RCLK &none             &none &none &none &none &none &none
-				&none &none &none &none     &none     &none &none &none &none &none &none &none &none &none
-				&none &none &none &none     &none     &none             &none &none             &none &none
+                &none &none      &none &mkp MCLK     &kp DEL &none                           &none            &none             &none  &none        &none      &kp LGUI(LS(S))
+				&none &kp LSHIFT &none &mkp LCLK     &mkp RCLK    &none                           &none            &none             &none  &none        &kp LGUI(TAB) &none
+				&none &none      &none &kp LC(C)     &kp LC(V)    &kp LC(X)      &none      &none &none            &none             &none  &kp LGUI(LC(LEFT)) &none      &kp LC(LGUI(RIGHT))
+				&none &none      &none &kp LC(MINUS) &kp LC(LS(EQUAL)) &kp LC(LS(N))                   &kp LGUI(LA(LEFT)) &kp LGUI(LA(RIGHT))                     &none      &kp LA(F4)
             >;
         };
         layer_6 {   //scrol
