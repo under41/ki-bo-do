@@ -41,7 +41,7 @@
                 &none &kp LS(SLASH) &none      &kp EQUAL  &none &kp LS(EQUAL)                       &kp LBKT      &kp RBKT    &none      &none &kp LS(N5) &none
 				&none &kp LS(N7)    &kp LS(N3) &kp LS(N4) &none &none                               &kp LS(N9)    &kp LS(N0)  &kp LS(N8) &none &kp LS(N6) &none
 				&none &none         &none      &none      &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
-				&none &none         &none      &none      &none &none                               &none         &none                        &kp SQT    &none
+				&none &none         &none      &none      &none &none                               &kp LS(N2)         &kp LS(N3)                        &kp SQT    &none
             >;
         };
 
