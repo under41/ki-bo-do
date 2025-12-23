@@ -4,6 +4,33 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+   macros {
+
+
+    mac_copy: mac_copy {
+        compatible = "zmk,behavior-macro";
+        label = "MAC_COPY";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press   &kp LGUI     
+             &macro_tap     &kp C        
+             &macro_release &kp LGUI>;   
+    };
+   mac_paste: mac_paste {
+        compatible = "zmk,behavior-macro";
+        label = "MAC_PASTE";
+        #binding-cells = <0>;
+        bindings =
+            <&macro_press   &kp LGUI     
+             &macro_tap     &kp V        
+             &macro_release &kp LGUI>;   
+    };
+
+
+
+
+};
+
     keymap {
         compatible = "zmk,keymap";
 
