@@ -1,4 +1,3 @@
-
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
@@ -55,10 +54,9 @@
     
     scroll_override {
         layers = <6>;
-        input-processors = 
-             <&zip_xy_to_scroll_mapper>
-             <&zip_scroll_scaler 1 6>;
+        input-processors = <&zip_xy_to_scroll_mapper>;
     };
+};
 };
 
 &physical_layout0 {
@@ -101,4 +99,3 @@
         irq-gpios = <&gpio0 15 GPIO_ACTIVE_LOW>;
     };
 };
-
