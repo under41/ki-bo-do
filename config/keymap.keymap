@@ -64,7 +64,7 @@
         };
         layer_6 {   //scrol
             bindings =<
-                &kp LS(RBKT) &none &none &none &none &none &none &none &none &none &none &none
+               &kp BSLH &kp LS(BSLH) &kp NUHS &kp NUBS &kp LBKT &kp LS(LBKT) &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &none &none &none &none &none &none &none &none
 				&none &none &none &none &none &none &kp C_AC_BACK            &kp C_AC_FORWARD &none &none
