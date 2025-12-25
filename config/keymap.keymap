@@ -93,7 +93,7 @@
 				&kp LSHIFT  &none         &none      &none         &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
 				&kp LCTRL   &kp LGUI      &kp LALT   &none         &none &none                               &kp LS(N2)    &kp LS(N3)                   &kp SQT    &none
             >;
-        };s
+        };
        layer_10 {   ////simbol win
             bindings =<
                 &none       &kp LS(SLASH) &none      &kp LS(MINUS) &none &kp LS(SCLN)                        &kp RBKT      &kp BSLH    &none      &none &kp LS(N5) &none
