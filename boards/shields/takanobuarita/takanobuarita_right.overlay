@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/matrix_transform.h>
+s#include <dt-bindings/zmk/matrix_transform.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 #include "layouts.dtsi"
@@ -54,7 +54,7 @@
     
     scroll_override {
         layers = <6>;
-        input-processors = <&zip_scroll_scaler 1 46>,<&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_scroll_scaler 1 4>,<&zip_xy_to_scroll_mapper>;
     };
 };
 };
