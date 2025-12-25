@@ -86,21 +86,21 @@
 				&kp LCTRL   &kp LGUI      &kp LALT   &none         &none &none                               &kp LS(N2)    &kp LS(N3)                   &kp SQT    &none
             >;
         };
-       layer_9 {   ////simbol win
+       layer_9 {   ////syanthi  mac
             bindings =<
-                &none       &none &none      &none &none &none  &none       &none &none      &none &none &none 
-				&none       &none &none      &none &none &none  &none       &none &none      &none &none &none 
-			    &none       &none &none      &none &none &none  &none       &none &none      &none &none &none  &none &none
-			    &none       &none &none      &none &none &none  &none       &none                  &none &none 
+                &none &none &none &none &none &none                    &none &none &none &none &none &none 
+				&none &none &none &none &none &none                    &none &none &none &none &none &none 
+			    &none &none &none &none &none &none  &none       &none &none &none &none &none &none &none
+			    &none &none &none &none &none &none                    &none &none             &none &none 
             >;
         };
-       layer_10 {   ////simbol win
+       layer_10 {   ////syanthi win
             bindings =<
-                 &none       &none &none      &none &none &none  &none       &none &none      &none &none &none 
-				&none       &none &none      &none &none &none  &none       &none &none      &none &none &none 
-			    &none       &none &none      &none &none &none  &none       &none &none      &none &none &none  &none &none
-			    &none       &none &none      &none &none &none  &none       &none &none &none 
-            
+                &none &none &none &none &none &none                    &none &none &none &none &none &none 
+				&none &none &none &none &none &none                    &none &none &none &none &none &none 
+			    &none &none &none &none &none &none  &none       &none &none &none &none &none &none &none
+			    &none &none &none &none &none &none                    &none &none             &none &none 
+        
             >;
         };
 
