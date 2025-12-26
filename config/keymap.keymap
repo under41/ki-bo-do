@@ -20,19 +20,29 @@
             bindings = < &kp LCTRL &kp LC(Z) >;
         };
         td_shift_cmda: td_shift_cmda {
-          compatible = "zmk,behavior-tap-dance";
-          #binding-cells = <0>;
-          tapping-term-ms = <200>;
-          bindings = < &kp LSHIFT &kp LG(A) >;
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = < &kp LSHIFT &kp LG(A) >;
        };
        td_scln_cmds: td_scln_cmds {
+           compatible = "zmk,behavior-tap-dance";
+           #binding-cells = <0>;
+           tapping-term-ms = <200>;
+           bindings = < &kp LS(SCLN) &kp LG(S) >;
+       };
+       td_shift_ctrla: td_shift_ctrla {
           compatible = "zmk,behavior-tap-dance";
           #binding-cells = <0>;
           tapping-term-ms = <200>;
-          bindings = < &kp LS(SCLN) &kp LG(S) >;
+          bindings = < &kp LSHIFT &kp LC(A) >;
        };
-
-
+       td_sqt_ctrls: td_sqt_ctrls {
+          compatible = "zmk,behavior-tap-dance";
+          #binding-cells = <0>;
+          tapping-term-ms = <200>;
+          bindings = < &kp SQT &kp LC(S) >;
+       };
 
     };
 
@@ -53,7 +63,7 @@
             bindings =<
                 &kp TAB    &kp Q    &kp W      &kp E     &kp R   &kp T                                     &kp Y     &kp U       &kp I          &kp O    &kp P      &lt 6 BSPC
 			 	&kp ESC    &kp A    &lt 5 S    &kp D     &kp F   &kp G                                     &kp H     &kp J       &kp K          &kp L    &kp UP     &lt 10 DEL
-				&kp LSHIFT &kp Z    &lt 6 X    &kp C     &kp V   &kp B     &kp SQT        &lt 7 LS(EQUAL)  &kp N     &kp M       &kp LS(0x87)   &kp LEFT &kp DOWN   &kp RIGHT
+				&td_shift_ctrla &kp Z    &lt 6 X    &kp C     &kp V   &kp B     &td_sqt_ctrls        &lt 7 LS(EQUAL)  &kp N     &kp M       &kp LS(0x87)   &kp LEFT &kp DOWN   &kp RIGHT
 				&td_ctrl_ctrlz  &kp LGUI &kp LALT   &kp SLASH &kp DOT &kp SPACE                                 &kp MINUS &lt 8 ENTER                         &kp LBKT   &lt 2 COMMA
             >;
         };
