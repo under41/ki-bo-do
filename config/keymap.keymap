@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+
+
     behaviors {
         td_ctrl_cmdz: td_ctrl_cmdz {
             compatible = "zmk,behavior-tap-dance";
@@ -11,15 +13,14 @@
             tapping-term-ms = <200>;
             bindings = < &kp LCTRL &kp LG(Z) >;
         };
-    td_ctrl_ctrlz: ctrl_ctrlz_td { 
-      compatible = "zmk,behavior-tap-dance";
-      #binding-cells = <0>;
-      tapping-term-ms = <200>;
-      bindings = < &kp LCTRL &kp LC(Z) >;
+        td_ctrl_ctrlz: td_ctrl_ctrlz { 
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = < &kp LCTRL &kp LC(Z) >;
+        };
     };
 
-
-    };
 
     keymap {
         compatible = "zmk,keymap";
