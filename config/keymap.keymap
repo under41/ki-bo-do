@@ -17,7 +17,6 @@
       tapping-term-ms = <200>;
       bindings = < &kp LCTRL &kp LC(Z) >;
     };
-};
 
 
     };
