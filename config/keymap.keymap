@@ -7,6 +7,16 @@
 
 
     behaviors {
+        mt_lsft_a: mt_lsft_a {
+      compatible = "zmk,behavior-hold-tap";
+      #binding-cells = <2>;
+      flavor = "tap-preferred";
+      tapping-term-ms = <320>;
+      bindings = <&kp>, <&kp>;
+    };
+
+
+
         td_ctrl_cmdz: td_ctrl_cmdz {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -53,7 +63,7 @@
         layer_0 {      //mac home
             bindings =<
                 &kp TAB        &kp Q       &kp W      &kp E     &kp R   &kp T                                    &kp Y     &kp U       &kp I          &kp O    &kp P       &lt 6 BSPC
-				&kp ESC        &mt LSFT A  &lt 4 S    &kp D     &kp F   &kp G                                    &kp H     &kp J       &kp K          &kp L    &mt RSFT UP &lt 9 DEL
+				&kp ESC        &mt_lsft_a LSFT A  &lt 4 S    &kp D     &kp F   &kp G                                    &kp H     &kp J       &kp K          &kp L    &mt RSFT UP &lt 9 DEL
 				&td_shift_cmda &kp Z       &lt 6 X    &kp C     &kp V   &kp B     &td_scln_cmds  &lt 7 LS(GRAVE) &kp N     &kp M       &kp LS(MINUS)  &kp LEFT &kp DOWN    &kp RIGHT
 				&td_ctrl_cmdz  &kp LGUI    &kp LALT   &kp SLASH &kp DOT &kp SPACE                                &kp MINUS &lt 3 ENTER                         &kp LS(N2)  &lt 2 COMMA
             >;
