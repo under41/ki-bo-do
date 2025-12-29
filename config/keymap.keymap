@@ -163,7 +163,16 @@
         
             >;
         };
+        layer_11 {
+    sensor-bindings = <&inc_dec_kp LS(EQUAL) MINUS>;
 
+    bindings = <
+        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
+    >;
+};
 
     };
 };
