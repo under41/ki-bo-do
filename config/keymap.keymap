@@ -133,7 +133,7 @@
             bindings =<
                 &none      &kp LS(SLASH) &none      &kp EQUAL  &none &kp LS(EQUAL)                       &kp LBKT      &kp RBKT    &none      &none &kp LS(N5) &none
 				&none      &kp LS(N7)    &kp LS(N3) &kp LS(N4) &none &none                               &kp LS(N9)    &kp LS(N0)  &kp LS(N8) &none &kp LS(N6) &none
-				&kp LSHIFT &none         &none      &none      &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
+				&kp LSHIFT &none         &none      &kp SCLN   &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
 				&kp LCTRL  &kp LGUI      &kp LALT   &none      &none &kp LC(SPACE)                       &kp LS(N2)    &kp LS(N3)                   &kp SQT    &none
             >;
         };
@@ -175,7 +175,7 @@
             bindings =<
                 &none       &kp LS(SLASH) &none      &kp LS(MINUS) &none &kp LS(SCLN)                        &kp RBKT      &kp BSLH    &none      &none &kp LS(N5) &none
 				&none       &kp LS(N6)    &kp LS(N3) &kp LS(N4)    &none &none                               &kp LS(N8)    &kp LS(N9)  &kp LS(N8) &none &kp EQUAL  &none
-				&kp LSHIFT  &none         &none      &none         &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
+				&kp LSHIFT  &none         &none      &kp SCLN      &none &kp LS(N1)     &none          &none &kp LS(COMMA) &kp LS(DOT) &none      &none &kp BSLH   &none
 				&kp LCTRL   &kp LGUI      &kp LALT   &none        &none &kp GRAVE                               &kp LS(N2)    &kp LS(N3)                   &kp SQT    &none
             >;
         };
