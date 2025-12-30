@@ -19,6 +19,26 @@
               <&kp N4>,
               <&kp N1>;
            };
+        macro_uub041431: macro_uub041431 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+            <&kp U>,
+            <&kp U>,
+            <&kp B>,
+            <&kp N0>,
+            <&kp N4>,
+            <&kp N1>,
+            <&kp N4>,
+            <&kp N3>,
+            <&kp N1>;
+          };
+
+
+
+
+
+
     
           mt_lsft_a: mt_lsft_a {              //A to sihuto no taiminngutyousei
                compatible = "zmk,behavior-hold-tap";
@@ -148,7 +168,7 @@
                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none                        &none &none &none &none &none &none
 				&to 0        &to 1        &none        &none        &none &none                        &none &none &none &none &none &none
 				&none        &none        &none        &none        &none &none &bt BT_CLR       &none &none &none &none &none &none &none
-				&macro_under41        &none        &none        &none        &none &none                        &none &none             &none &none
+				&macro_under41        &macro_uub041431        &none        &none        &none &none                        &none &none             &none &none
             >;
         };
         layer_8 {   ////simbol win
