@@ -7,7 +7,7 @@
 
 
     behaviors {
-          mt_lsft_a: mt_lsft_a {
+          mt_lsft_a: mt_lsft_a {              //A to sihuto no taiminngutyousei
                compatible = "zmk,behavior-hold-tap";
                #binding-cells = <2>;
                flavor = "tap-preferred";
@@ -15,7 +15,7 @@
                bindings = <&kp>, <&kp>;
            };
 
-         mt_rsft_up: mt_rsft_up {
+         mt_rsft_up: mt_rsft_up {            //ueyajirusi to sihuto no taiminngutyousei
               compatible = "zmk,behavior-hold-tap";
               #binding-cells = <2>;
               flavor = "tap-preferred";
