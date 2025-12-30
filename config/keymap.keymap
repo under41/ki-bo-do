@@ -8,17 +8,17 @@
 
     behaviors {
           macro_under41: macro_under41 {
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings =
-        <&kp U>,
-        <&kp N>,
-        <&kp D>,
-        <&kp E>,
-        <&kp R>,
-        <&kp N4>,
-        <&kp N1>;
-};
+              compatible = "zmk,behavior-macro";
+              #binding-cells = <0>;
+              bindings =
+              <&kp U>,
+              <&kp N>,
+              <&kp D>,
+              <&kp E>,
+        	  <&kp R>,
+              <&kp N4>,
+              <&kp N1>;
+           };
     
           mt_lsft_a: mt_lsft_a {              //A to sihuto no taiminngutyousei
                compatible = "zmk,behavior-hold-tap";
@@ -143,12 +143,12 @@
 				&kp LCTRL   &kp LGUI &kp LALT &none &none &none                      &kp C_AC_BACK &kp C_AC_FORWARD             &none &none
             >;
         };
-        layer_7 {   //bluetooth
+        layer_7 {   //bluetooth etc
             bindings =<
                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none &none                        &none &none &none &none &none &none
 				&to 0        &to 1        &none        &none        &none &none                        &none &none &none &none &none &none
 				&none        &none        &none        &none        &none &none &bt BT_CLR       &none &none &none &none &none &none &none
-				&none        &none        &none        &none        &none &none                        &none &none             &none &none
+				&macro_under41        &none        &none        &none        &none &none                        &none &none             &none &none
             >;
         };
         layer_8 {   ////simbol win
