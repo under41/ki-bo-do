@@ -7,6 +7,19 @@
 
 
     behaviors {
+          macro_under41: macro_under41 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings =
+        <&kp U>,
+        <&kp N>,
+        <&kp D>,
+        <&kp E>,
+        <&kp R>,
+        <&kp N4>,
+        <&kp N1>;
+};
+    
           mt_lsft_a: mt_lsft_a {              //A to sihuto no taiminngutyousei
                compatible = "zmk,behavior-hold-tap";
                #binding-cells = <2>;
