@@ -142,7 +142,7 @@
             bindings =<
                 &none      &none      &none     &mkp MCLK     &kp LG(BSPC)  &none                              &none            &none             &none  &none        &none      &kp LG(LS(N4))
 				&none      &kp LSHIFT &none     &mkp LCLK     &mkp RCLK     &none                              &none            &none             &none  &none        &kp LC(UP) &none
-				&kp LSHIFT &kp LCTRL  &none     &kp LG(C)     &kp LG(V)     &kp LG(D)    &none           &none &none            &none             &none  &kp LC(LEFT) &none      &kp LC(RIGHT)
+				&kp LSHIFT &kp LGUI   &none     &kp LG(C)     &kp LG(V)     &kp LG(D)    &none           &none &none            &none             &none  &kp LC(LEFT) &none      &kp LC(RIGHT)
 				&kp LCTRL  &kp LGUI   &kp LALT  &kp LG(MINUS) &kp LG(SCLN)  &kp LG(LS(N))                      &kp LG(LA(LEFT)) &kp LG(LA(RIGHT))                     &none      &kp LG(W)
             >;
         };
