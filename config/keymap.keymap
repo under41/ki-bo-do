@@ -34,7 +34,7 @@
             <&kp N1>;
           };
 
-         macros {
+         
         bt_sel0_only: bt_sel0_only {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -44,7 +44,7 @@
                 <&bt BT_DISC 2>
                 <&bt BT_DISC 3>;
         };
-    };
+   
 
 
 
