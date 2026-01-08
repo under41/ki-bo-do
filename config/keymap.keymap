@@ -44,6 +44,15 @@
                 <&bt BT_DISC 2>,
                 <&bt BT_DISC 3>;
         };
+       bt_sel1_only: bt_sel1_only {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&bt BT_SEL 1>,
+                <&bt BT_DISC 0>,
+                <&bt BT_DISC 2>,
+                <&bt BT_DISC 3>;
+        };
    
 
 
@@ -176,7 +185,7 @@
         };
         layer_7 {   //bluetooth etc
             bindings =<
-                &bt_sel0_only   &bt BT_SEL 1      &bt BT_SEL 2 &bt BT_SEL 3 &none &none                        &none &none &none &none &none &none
+                &bt_sel0_only   &bt_sel1_only      &bt BT_SEL 2 &bt BT_SEL 3 &none &none                        &none &none &none &none &none &none
 				&to 0          &to 1             &none        &none        &none &none                        &none &none &none &none &none &none
 				&none          &none             &none        &none        &none &none &bt BT_CLR       &none &none &none &none &none &none &none
 				&macro_under41 &macro_uub041431  &none        &none        &none &none                        &none &none             &none &none
